@@ -1,0 +1,20 @@
+$kind: http-request
+name: http://localhost:3000/jobs/1
+description: ""
+url: http://localhost:3000/jobs
+method: POST
+headers:
+  x-api-key: rahasia123
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "posisi": "Backend Developer Intern - Siti Chairunisah Suyta",
+      "perusahaan": "PT Kode Maju",
+      "lokasi": "Palembang",
+      "tipe": "magang",
+      "gajiMin": 2500000,
+      "gajiMax": 3500000
+    }
+order: 1791267803004
